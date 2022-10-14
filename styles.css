@@ -1,0 +1,107 @@
+body {
+  background: rgba(34, 42, 54, 0.95);
+}
+@import url('http://fonts.cdnfonts.com/css/playfair-display');
+@font-face {
+  font-family: poppinsregular;
+  src: url(../fonts-regular.ttf);
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-link {
+font-family: 'poppinsregular';
+width: 60px;
+height: 30px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+
+.btn-contact{
+  padding: 10px 20px;
+  width: 152px;
+  height: 50px;
+  background: #676CDB;
+  color: #FFFFFF;
+  font-weight: 600;
+  }
+
+.baner_text {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.text_white {
+  color: #FFFFFF;
+}
+
+
+.text_grey{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.baner {
+  /* background-image: url(/photo1.png); */
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.mobile_image{
+  display: none;
+}
+img {
+  width: 100%;
+}
+@media only screen and (max-width: 992px){
+  .baner{
+    background-image: none;
+  }
+  
+}
+.mobile_image{
+  display: block;
+
+}
+.text-1 {
+  color: #FFFFFF;
+}
+
+/* .section_2 {
+width: 1441px;
+height: 200px;
+left: 0px;
+top: 743px;
+background: #000000;
+}
+
+.section_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+
+.div {
+  width: 90px;
+  height: 40px;
+  padding: 20px;
+} */
+
+
